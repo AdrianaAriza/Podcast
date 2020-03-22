@@ -1,4 +1,5 @@
 body {
+    position: relative;
     padding: 0%;
     margin: 0%;
 }
@@ -46,9 +47,22 @@ header label img{
     right: 19px;
     height: 12px;
     width: 18px;
+}.show img{
+    position: absolute;
+    top: 16px;
+    right: 19px;
+    height: 12px;
+    width: 18px;
 }
 .showx{
     visibility: hidden;
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    height: 14px;
+    width: 14px;
+}
+.showx img{
     position: absolute;
     top: 14px;
     right: 16px;
