@@ -32,6 +32,7 @@
 }
 #more{
     display: block;
+    padding: 0;
     position: relative;
     margin: 0;
     top: 12.59%;
@@ -46,7 +47,7 @@
 }
 @media (max-width:700px){
     .title{
-        height: 313.77px;
+        height: 303px;
     }
     .title h1{
         margin: 0;

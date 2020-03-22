@@ -1,7 +1,9 @@
 .episodios{
-    margin-top: 84px;
+    display: block;
+    margin: 0;
+    padding: 0;
     width: 100%;
-    height: 1042.6px;
+    height: 891px;
     background-image: 
         linear-gradient(
         225deg,
@@ -11,25 +13,24 @@
         -ms-transform: skewY(-6deg);
         -webkit-transform: skewY(-6deg);
 }
-.episodios h3{
-    position: absolute;
-    box-sizing: border-box;
-    margin-left: 200px;
-    margin-top: 110.2px;
+.episodios h3{  
+    position: relative;
     padding: 0;
-    width: 209px;
-    height: 62px;
-    transform: skewY(6deg); 
-    -ms-transform: skewY(6deg);
-    -webkit-transform: skewY(6deg);
+    margin: 0;
+    max-width: 209px;
+    top: 7%;
+    left: 13.89%;
     color: white;
     font-size: 48px;
     font-family: IBMPlexSans;
+    transform: skewY(6deg); 
+    -ms-transform: skewY(6deg);
+    -webkit-transform: skewY(6deg);
 }
 .select-episodios{
     width: 100%;
     position: relative;
-    top: 198.2px;
+    top: 13.92%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -39,7 +40,29 @@
     -webkit-transform: skewY(6deg);
 }
 .select-episodios img{
-    width: 584px;
+    max-width: 40.55%;
     height: 232px;
-    margin: 36px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 72px;
+}
+
+@media (max-width:700px){
+    .episodios{
+        height: 1203.5px;
+    }
+    .episodios h3{  
+        max-width: 157px;
+        top: 3%;
+        left: 5%;
+        font-size: 42px;
+    }
+    .select-episodios{
+        top: 6.04%;
+    }
+    .select-episodios img{
+        max-width: 93.12%;
+        height: 225px;
+        margin-bottom: 11px;
+    }
 }
