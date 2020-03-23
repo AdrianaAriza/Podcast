@@ -1,0 +1,28 @@
+.otros{
+    position: relative;
+    width: 86.11%;
+    top: -111.2px;
+    height: 630.2px;
+    left:13.89%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+	
+}   
+.otros img{
+    top: -111.2px;
+    height: 660px;
+    width: 457.6px;
+}
+.description{
+    top: 95.8px;
+    right: 17.78%;
+    max-width: 464px;
+    min-height: 290px;
+}
+.otros h6 {
+    font-size: 16px;
+}
+.otros h3{
+    font-size: 48px;
+}
