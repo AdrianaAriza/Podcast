@@ -84,6 +84,8 @@ header label img{
     padding-left: 48px;
     font-size: 16px;
     vertical-align: center;
+    font-family: 'IBM Plex Mono Regular 400', monospace;
+    color: #060A24;
 }
 @media (max-width:700px)
 {

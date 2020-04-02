@@ -39,12 +39,12 @@
     -ms-transform: skewY(6deg);
     -webkit-transform: skewY(6deg);
 }
-.select-episodios img{
-    max-width: 40.55%;
+.i-style{
+    width: 40.55%;
     height: 232px;
     margin-left: 2.5%;
     margin-right: 2.5%;
-    margin-bottom: 72px;
+    margin-bottom: 72px; 
 }
 
 @media (max-width:700px){
@@ -60,8 +60,8 @@
     .select-episodios{
         top: 6.04%;
     }
-    .select-episodios img{
-        max-width: 93.12%;
+    .i-style{
+        width: 93.12%;
         height: 225px;
         margin-bottom: 11px;
     }
