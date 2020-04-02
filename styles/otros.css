@@ -1,53 +1,46 @@
 .otros{
     position: relative;
     width: 100%;
-    max-height: 660px;
+    min-height: 724px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: right;
-    align-items: flex-end;
+    justify-content: center;
     margin-top: -113px;
 }
 .o-img{
-    vertical-align: top;
-    margin-left: 13.89%;
-    width: 31.8%;
-    height: 100%;
+    max-width: 457.6px;
+    max-height: 660px;
 }   
-.otros img{
+.o-img img{
     height: 100%;
     width: 100%;
-}
-.cel{
-    margin-left: 15%;
-    top: -111.2px;
-    max-height: 660px;
-    width: 31.8%;
 }
 
 .description{
     display: flex;
+    align-self: center;
     flex-direction: column;
-    padding-bottom: 19%;
     padding-left: 4.33%;
     padding-right: 3%;
     width: 32.2%;
     height: 50%;
 } 
 .otros h3{
-    font-size: 48px;
+    font-size: 42px;
     margin: 0;
     max-width: 399px;
+    font-family: 'IBM Plex Sans Thin 100', sans-serif;
 }
 .otros h6 {
     font-size: 16px;
     padding-top: 24px;
     margin: 0;
     min-width: 200px;
+    font-family: 'IBM Plex Mono', sans-serif;
 }
-@media (max-width:700px){
+@media (max-width:760px){
     .otros{
-        top: -101px;
+        top: 30px;
         max-height: 1185px;
     }
     .o-img{
@@ -68,15 +61,21 @@
         padding-left: 5%;
         width: 90%;
         padding-bottom: 54px;
-        padding-right: 5%;
     } 
     .otros h3{
-        font-size: 42px;
+        font-size: 36px;
         margin: 0;
         max-width: 399px;
     }
     .otros h6 {
         font-size: 14px;
         padding-top: 8px;
+    }
+    
+    .cel{
+        margin-left: 0;
+        top: -50px;
+        max-height: 660px;
+        width: 100%;
     }
 }

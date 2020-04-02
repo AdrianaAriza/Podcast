@@ -11,7 +11,7 @@
     padding-top: 8.33%;
     padding-left: 13.89%;
     padding-right: 5%;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'IBM Plex Sans Light 300', sans-serif;
     font-size: 64px;
     word-wrap: break-word;
 }
@@ -53,10 +53,9 @@
     }
     .title h1{
         margin: 0;
-        padding-right: 25.62%;
+        padding-right: 28.8%;
         padding-top: 9.07%;
         padding-left: 5%;
-        font-family: IBMPlexSans;
         font-size: 30px;
     }
     .title h6{
@@ -65,12 +64,12 @@
     .title h5{
         display: block;
         position: relative;
+        padding-top: 16px;
         padding-right: 5%;
         padding-left: 5%;
         margin: 0;
-        font-family: 'IBM Plex Mono', monospace;
+        font-family: 'IBM Plex Mono Thin 100', monospace;
         color: #060A24;
-    
         font-size: 14px;
         word-wrap: break-word;
     }
@@ -78,11 +77,11 @@
         color: #060A24;    
     }
     #more{
-        max-width: 288px;
+        min-width: 288px;
         max-height: 48px;
         font-size: 16px;
         left: 0;
-        top: 11.47%;
+        top: 36px;
         margin-left: auto;
         margin-right: auto;
     }
