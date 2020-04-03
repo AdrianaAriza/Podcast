@@ -1,0 +1,54 @@
+.invitados{
+    display: block;
+    align-content: center;
+    max-height: 890px;
+}
+.invitados h3{
+    width: 100%;
+    height: 84px;
+    margin-left: 13.89%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 0;
+    font-size: 48px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #060A24;
+}
+.img-inv{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-height: 890px;
+    justify-content: center;
+}
+.invitados img{
+    max-width: 480px;
+    max-height: 364px;
+}
+@media (max-width:700px){
+    .invitados{
+        display: block;
+        align-content: center;
+        max-height: 1603px;
+    }
+    .img-inv{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        max-height: 1458px;
+        justify-content: center;
+    }
+    .invitados img{
+        min-width: 320px;
+        height: 243px;
+    }
+    .invitados h3{
+        width: 100%;
+        height: 84px;
+        margin-left: 5%;
+        padding: 0;
+        font-size: 36px;
+    }
+}
+
