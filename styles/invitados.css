@@ -1,10 +1,11 @@
 .invitados{
+    width: 100%;
     display: block;
     align-content: center;
-    max-height: 890px;
+    max-height: 1603px;
 }
 .invitados h3{
-    width: 100%;
+    width: 86%;
     height: 84px;
     margin-left: 13.89%;
     margin-top: 0%;
@@ -23,7 +24,7 @@
     justify-content: center;
 }
 .invitados img{
-    max-width: 480px;
+    width: 33.333%;
     max-height: 364px;
 }
 @media (max-width:700px){
@@ -36,19 +37,20 @@
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        max-height: 1458px;
         justify-content: center;
+        margin-top: 14px;
     }
     .invitados img{
         min-width: 320px;
         height: 243px;
     }
     .invitados h3{
-        width: 100%;
+        width: 95%;
         height: 84px;
         margin-left: 5%;
         padding: 0;
         font-size: 36px;
+        margin-top: 0;
     }
 }
 
