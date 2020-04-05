@@ -11,9 +11,12 @@
     <link rel=StyleSheet type="text/css" href="./styles/invitados.css"/>
     <link rel=StyleSheet type="text/css" href="./styles/some-topics.css"/>
     <link rel=StyleSheet type="text/css" href="./styles/novelty.css"/>
+    <link rel=StyleSheet type="text/css" href="./styles/footer.css"/>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300;400;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -30,10 +33,10 @@
         </div>
         <div class="menu">
             <ul>
-                <li><a>TOPICOS</a></li>
-                <li><a>ENTREVISTAS</a></li>                
+                <li><a href="#topicos">TOPICOS</a></li>
+                <li><a href="#entrevista">ENTREVISTAS</a></li>                
                 <li><a>NOSOTROS</a></li>
-                <li><a>EPISODIOS</a></li>
+                <li><a href="#episodios">EPISODIOS</a></li>
             </ul>
         </div>
     </header>
@@ -47,7 +50,7 @@
         </h5>
         <button class="more" type="button" id="more">CONOCE MAS</button>
     </div>
-    <div class="episodios">
+    <div class="episodios" id="episodios">
         <h3>Episodios</h3>
         <div class="select-episodios">
             <iframe class="i-style" src="https://open.spotify.com/embed/episode/7AZZy2nJ4R9ZndHW0h2yxt" frameborder="0" scrolling="no"></iframe>
@@ -73,7 +76,7 @@
             </h6>
         </div>
     </div>
-    <div class="invitados">
+    <div class="invitados" id="entrevista">
         <h3>Invitadas/os estelares</h3>
         <div class="img-inv">
             <img src="/images/grace-hopper.png"/>
@@ -84,7 +87,7 @@
             <img src="/images/susan-kare.png"/>
         </div>
     </div>
-    <div class="some-topics">
+    <div class="some-topics" id="topicos">
         <h3>Algunos de nuestros temas</h3>
         <div class="topics">
             <div class="each-topic">
@@ -109,5 +112,15 @@
         <h2>Queres las ultimas novedades?</h2>
         <button class="more2" type="button" id="more2">ESCUCHA LOS EPISODIOS</button>
     </div>
+    <footer>
+        <div class="ref">&copy; 2019- Hello blue pale dot</div>
+        <div class="icons"> 
+            <i class="fab fa-spotify"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-spotify"></i>
+        </div> 
+    </footer>
 </body>
 </html>

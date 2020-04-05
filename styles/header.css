@@ -4,6 +4,22 @@ body {
     display: flex;
     flex-direction: column;
 }
+#more:hover {
+    background-image: 
+    linear-gradient(
+    225deg,
+    #0000FE,
+    #00F0B8);  
+    color: white;
+}
+#more2:hover {
+    background-image: 
+    linear-gradient(
+    225deg,
+    #0000FE,
+    #00F0B8);  
+    color: white;
+}
 header {
     position: relative;
     width: 100%;
