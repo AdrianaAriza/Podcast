@@ -35,7 +35,7 @@
     font-size: 18px;
     color: #060A24; 
 }
-@media (max-width:700px){
+@media (max-width:750px){
     .novelty{
         height: 341px;
         clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 100%);

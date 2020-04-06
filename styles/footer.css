@@ -14,24 +14,21 @@ footer{
 .fab{
     width: 16px;
     height: 28px;
-    padding-left: 40%;
 }
 .icons{
     position: absolute;
     display: flex;
+    flex-direction: row;
     right: 8%;
-    align-content: space-around;
-    justify-content: center;
-    width: 17.5%;
+    justify-content: space-around;
+    width: 232px;
 }
-@media (max-width:700px){
+@media (max-width:450px){
     footer{
         display: flex;
         flex-direction: column;
         padding-top: 7.5%;
         padding-bottom: 2.15%;
-        padding-left: 14.8%;
-        padding-right: 14.8%;
     }
     .ref{
         font-size: 14px;
@@ -40,13 +37,14 @@ footer{
     .fab{
         width: 18px;
         height: 28px;
-        padding-left: 18%;
     }
     .icons{
+        padding-top: 16px;
+        position: relative;
         display: flex;
-        right: 8%;
-        align-content: space-around;
-        justify-content: center;
-        width: 80%;
+        justify-content: space-around;
+        max-width: 227px;
+        align-self: center;
+        padding-left: 17%;
     }
 }

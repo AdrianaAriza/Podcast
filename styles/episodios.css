@@ -45,6 +45,7 @@
     margin-left: 2.5%;
     margin-right: 2.5%;
     margin-bottom: 72px; 
+    padding-bottom: 0;
 }
 
 @media (max-width:700px){
@@ -65,5 +66,7 @@
         width: 93.12%;
         max-height: 225px;
         margin-bottom: 11px;
+        margin-left: 0%;
+        margin-right: 0%;
     }
 }
