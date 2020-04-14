@@ -104,7 +104,16 @@ header label img{
     vertical-align: center;
     font-family: 'IBM Plex Mono Regular 400', monospace;
     color: #060A24;
+    text-decoration: none;
 }
+.menu li a:hover{
+    color: #00F3BB;
+    text-decoration: line-through;
+  }
+  .menu li a:active{
+    color: rgba(6,10,36,0.56);
+    text-decoration: line-through;
+  }
 @media (max-width:700px)
 {
     header label{
