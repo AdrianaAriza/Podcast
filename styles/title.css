@@ -47,7 +47,7 @@
     font-size: 18px;
     color: #060A24; 
 }
-@media (max-width:700px){
+@media (max-width:750px){
     .title{
         height: 303px;
     }
