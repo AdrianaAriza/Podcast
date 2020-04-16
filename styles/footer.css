@@ -29,14 +29,8 @@ footer{
 }
 @media (max-width:450px){
     footer{
-        display: flex;
         flex-direction: column;
         padding-top: 7.5%;
-        padding-bottom: 2.15%;
-    }
-    .ref{
-        font-size: 14px;
-        text-align: center;
     }
     .fab{
         width: 18px;
